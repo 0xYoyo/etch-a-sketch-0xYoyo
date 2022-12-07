@@ -1,0 +1,28 @@
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: #e6e6e6;
+}
+
+h1{
+    align-self: center;
+}
+
+.main-container{
+    display: flex;
+    justify-content: space-around;
+}
+.grid-container{
+    
+    height: 860px;
+    width: 860px;
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px solid black;
+}
+
+.box{
+    border: 1px solid gray;
+
+}
+
